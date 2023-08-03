@@ -1,116 +1,117 @@
 body {
-    font-family: 'Libre Franklin', sans-serif;
-    color: #333;
+  font-family: "Libre Franklin", sans-serif;
+  color: #333;
+  font-weight: 400;
 }
 
 .hero-background {
-    min-height: 785px;
-    padding: 85px 165px;
-    background-image: url('images/background.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  min-height: 785px;
+  padding: 85px 165px;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .nav-logo {
-    color: #FFF;
-    font-size: 24px;
-    font-weight: 700;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
 }
 
-.nav-logo:hover, .nav-link:hover  {
-    color: #F5D6AB;
+.nav-logo:hover,
+.nav-link:hover {
+  color: #f5d6ab;
 }
 
 .nav-link {
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 400;
-    margin-left: 50px;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 50px;
 }
 
 .nav-active {
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: underline;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: underline;
 }
 
 .navbar-toggler-icon {
-    background-image: url('images/hamburger-white.png');
+  background-image: url("images/hamburger-white.png");
 }
 
 h1 {
-    color: #FFF;
-    font-size: 64px;
-    font-weight: 400;
-    margin-top: 145px;
+  color: #fff;
+  font-size: 64px;
+  margin-top: 145px;
 }
 
 h2 {
-    color: #FFF;
-    font-size: 24px;
-    font-weight: 400;
-    margin: 26px 0 106px;
+  color: #fff;
+  font-size: 24px;
+  margin: 26px 0 106px;
 }
 
-.banner-link {
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 400;
+.hero-link {
+  color: #fff;
+  font-size: 18px;
+}
+
+.hero-link:hover {
+  color: #f5d6ab;
 }
 
 .section-settings {
-    padding: 93px 165px;
+  padding: 93px 165px;
 }
 
 .section-heading {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 76px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 76px;
 }
 
 .section-text {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: justify;
-    margin-bottom: 22px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 22px;
 }
 
 .bg-color {
-    background: #FFFAF2;
+  background: #fffaf2;
 }
 
 .progress-color {
-    background: #C66C49;
+  background: #c66c49;
 }
 
-.tools, .skills {
-    list-style-type: none;
+.tools,
+.skills {
+  list-style-type: none;
 }
 
 .tools li {
-    margin-bottom: 8px;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 25px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
 }
 
-.tools .profile-item, .skills .profile-item  {
-    margin-bottom: 65px;
-    color: #8B4136;
-    font-size: 22px;
+.tools .profile-item,
+.skills .profile-item {
+  margin-bottom: 65px;
+  color: #8b4136;
+  font-size: 22px;
 }
 
 .tools .tools-item {
-    margin-bottom: 30px;
-    opacity: 0.6;
+  margin-bottom: 30px;
+  opacity: 0.6;
 }
 
 .skills li {
   font-size: 18px;
-  font-weight: 400;
   line-height: 25px;
   margin-bottom: 10px;
 }
@@ -131,6 +132,22 @@ h4 {
   margin-top: 80px;
 }
 
-/* .portfolio .symbol {
-  width: 50px;
-} */
+.contacts h3 {
+  margin-bottom: 52px;
+}
+
+.contacts ul, .contacts address {
+  list-style-type: none;
+  gap: 16px;
+}
+
+.contacts li a{
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+}
+
+.contacts li a:hover {
+  color: #C66C49;
+  text-decoration: underline
+}
