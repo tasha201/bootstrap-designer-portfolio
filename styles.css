@@ -4,9 +4,9 @@ body {
 }
 
 .hero-background {
-    min-height: 768px;
+    min-height: 785px;
     padding: 85px 165px;
-    background-image: url('images/Background.jpg');
+    background-image: url('images/background.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -75,4 +75,47 @@ h2 {
     font-weight: 400;
     line-height: 30px;
     text-align: justify;
+    margin-bottom: 22px;
+}
+
+.bg-color {
+    background: #FFFAF2;
+}
+
+.progress-color {
+    background: #C66C49;
+}
+
+.tools, .skills {
+    list-style-type: none;
+}
+
+.tools li {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.tools .profile-item, .skills .profile-item  {
+    margin-bottom: 65px;
+    color: #8B4136;
+    font-size: 22px;
+}
+
+.tools .tools-item {
+    margin-bottom: 30px;
+    opacity: 0.6;
+}
+
+.skills li {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.skills .tools-item {
+  margin-bottom: 40px;
+  margin-top: 10px;
 }
