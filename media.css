@@ -1,0 +1,60 @@
+@media (max-width: 991px) {
+  .navbar .container {
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .hero-background {
+    padding: 78px;
+  }
+
+  .nav-logo {
+    font-size: 40px;
+  }
+  h1 {
+    margin-top: 100px;
+    font-size: 58px;
+  }
+  .section-settings {
+    padding: 78px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .nav-logo {
+    font-size: 40px;
+    margin-left: 140px;
+  }
+  h1 {
+    font-size: 45px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .hero-link {
+    font-size: 24px;
+    display: block;
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  .skills-img {
+    margin-bottom: 40px;
+  }
+  .skills .profile-item {
+    margin-bottom: 45px;
+  }
+  .skills .tools-item {
+    margin-bottom: 35px;
+  }
+}
